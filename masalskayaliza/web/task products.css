@@ -1,0 +1,48 @@
+body{
+    font-family: Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35em;
+    background-color: #f9f8f7;
+    
+}
+header{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__conteiner{
+    margin: 0 auto;
+}
+.header__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #887733;
+    min-height: 550px;
+}
+.header__text p{
+    padding: 1.5em 3em;
+    height: 100%;
+    text-transform: uppercase;
+    color: #f9f8f7;
+    transition: 1s;
+    font-size: 30px;
+}
+.link{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    color:#887733;
+    
+}
+a{
+    color:#887733
+}
+ul{
+    padding-top: 20px;
+    margin: 0 0 0 110px;
+}
